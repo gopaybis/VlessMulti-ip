@@ -1,12 +1,12 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
-const rootDomain = "kuncung.eu.org"; // Ganti dengan domain utama kalian
-const serviceName = "vless-multi"; // Ganti dengan nama workers kalian
-const apiKey = "0sSsOv1nX31DiEbDF8swK9saKqLucyY-Z9ALy43V"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
-const apiEmail = "apkfiles588@gmail.com"; // Ganti dengan email yang kalian gunakan
-const accountID = "d6b46ba34c388de3b99b2e2e3631c459"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-const zoneID = "a1cacc7172f9a2f13c52d4863e7829a2"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const rootDomain = ""; // Ganti dengan domain utama kalian
+const serviceName = ""; // Ganti dengan nama workers kalian
+const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiEmail = ""; // Ganti dengan email yang kalian gunakan
+const accountID = "d6"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const zoneID = "a1cacc7"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
 let proxyIP = "https://github.com/FoolVPN-ID/Nautica/blob/main/proxyList.txt";
 let cachedProxyList = [];
